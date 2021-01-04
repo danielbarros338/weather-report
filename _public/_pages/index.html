@@ -8,19 +8,23 @@
 </head>
 <body>
     <main>
-            <select id="op">
-                <option > -- Escolha uma capital --</option>
-                <option class="city" value="90200707">Rio de Janeiro</option>
-                <option class="city" value="455827">São Paulo</option>
-                <option class="city" value="455821"> Belo Horizonte</option>
-                <option class="city" value="455861">Florianópolis</option>
-                <option class="city" value="455819">Brasília</option>
-                <option class="city" value="455888">Natal</option>
-            </select>
-            <button class="btn" type="submit">Enviar</button>
+       
+        <div>
+            <input placeholder="Insira o nome da idade desejada">
+            <button id="send">Enviar</button>
+        </div>
 
+        <article>
+            <div>
+                <table>
+                    <td class="city"></td>
+                    <td class="max"></td>
+                    <td class="min"></td>
+                </table>
+            </div>
+        </article>
+        
     </main>
     <script src="../_js/index.js"></script>
-    <script src="../../src/app/api/apiWeather.js"></script>
 </body>
 </html>
