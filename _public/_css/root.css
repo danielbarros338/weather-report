@@ -1,0 +1,60 @@
+:root{
+    --color-bg-default: linear-gradient(to left, #f79708, #ffc13b);
+    --color-hot-temp: linear-gradient(to left, #ff7300, #ffba3b);
+    --color-medium-temp: linear-gradient(to left, #f79708, #3bffef);
+    --color-cold-temp: linear-gradient(to left, #086bff, #3be2ff);
+    --color-cloudy-temp: linear-gradient(to left, #086bff, #999);
+    --color-rain-temp: linear-gradient(to left, #555, #999);
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    background: var(--color-bg-default);
+    color: #fff;
+    text-shadow: 1px 0 3px #000;
+}
+
+input,
+button {
+    box-shadow: 0 0 10px #000;
+    border: none;
+    padding: 0.5rem;
+    outline-style: none;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    height: 90vh;
+}
+
+table{
+    text-align: center;
+    color: #444;
+    text-shadow: none;
+}
+
+#search{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#screen{
+    background: #dfdfdf;
+    color: #595959;
+    text-shadow: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #000;
+    margin-bottom: 0.7rem;
+    height: 0;
+}
+
+#temp-screen{
+    display: flex;
+    flex-wrap: wrap;
+}

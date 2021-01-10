@@ -14,7 +14,7 @@ app.use("/jsonweather", (req,res) =>{
 
 function callApi(){
     for(i = 0; i < ids.length-1; i++){
-        apiWeather(`https://api.hgbrasil.com/weather?woeid=${ids[i]}?key=4106970d`, function(error, response, body){
+        apiWeather(`https://api.hgbrasil.com/weather?key=4106970d&woeid=${ids[i]}`, function(error, response, body){
             console.log('error: ', error);
             console.log('statusCode: ', response && response.statusCode);
             console.log('body: ', body);

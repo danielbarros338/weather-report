@@ -1,3 +1,55 @@
-h1 { 
-    color: red;
+@media(max-width: 480px){
+    main{
+        justify-content: center;
+        align-content: space-around;
+    }
+
+
+    table{ 
+        width: 90vw;
+    }
+
+    #search{
+        justify-content: center;
+        align-content: center;
+    }
+
+    #search h1 {
+        margin: 0 0 0.7rem 0;
+    }
+
+    #search input {
+        margin: 0 0 0.7rem 0;
+        width: 100%;
+    }
+
+    #search button {
+        margin: 0;
+        width: 60%;
+    }
+
+    #temp-screen{
+        justify-content: center;
+    }
+
+    #city-name{
+        margin: 0 0 0 0.7rem;
+    }
+
+    #temperature{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    #description{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    
+    #minimum,
+    #maximum,
+    #wind,
+    #humidity{
+        font-size: 0.8rem;
+    }
 }

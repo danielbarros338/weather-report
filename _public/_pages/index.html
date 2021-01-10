@@ -4,24 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Previsão do Tempo </title>
+    <link rel="stylesheet" href="../_css/root.css">
     <link rel="stylesheet" href="../_css/main.css">
 </head>
 <body>
     <main>
        
-        <div>
-            <input placeholder="Insira o nome da idade desejada">
+        <section id="search">
+            <h1 id="title">Previsão do Tempo</h1>
+                <div id="screen">
+                    <h5 scope="col" id="city-name"> <span id="close-btn"></span></h5> 
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td id="temperature"></td>
+                                <td id="description"></td>
+                            </tr>
+                            <tr>
+                                <td><span id="minimum"></span><span id="maximum"></span></td>
+                            </tr>
+                            <tr>
+                                <td id="wind"></td>
+                                <td id="humidity"></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td class="weekday"></td>
+                                <td class="weekday"></td>
+                                <td class="weekday"></td>
+                                <td class="weekday"></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            <input id="enter-city" placeholder="Nome da cidade, UF">
             <button id="send">Enviar</button>
-        </div>
+        </section>
 
-        <article>
-            <div>
-                <table>
-                    <td class="city"></td>
-                    <td class="max"></td>
-                    <td class="min"></td>
-                </table>
-            </div>
+        <article id="temp-screen">   
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Min</th>
+                        <th scope="col">Max</th>
+                        <th scope="col">Cidade</th>
+                    </tr>
+                </thead>
+                <tbody id="body-table">
+                    <tr>
+                        <td class="min">20</td>
+                        <td class="max">30</td>
+                        <td class="city">Rio de Janeiro</td>
+                    </tr>
+                    <tr>
+                        <td class="min">20</td>
+                        <td class="max">30</td>
+                        <td class="city">Rio de Janeiro</td>
+                    </tr>
+                    <tr>
+                        <td class="min">20</td>
+                        <td class="max">30</td>
+                        <td class="city">Rio de Janeiro</td>
+                    </tr>
+                    <tr>
+                        <td class="min">20</td>
+                        <td class="max">30</td>
+                        <td class="city">Rio de Janeiro</td>
+                    </tr>
+                    <tr>
+                        <td class="min">20</td>
+                        <td class="max">30</td>
+                        <td class="city">Rio de Janeiro</td>
+                    </tr>
+                    <tr>
+                        <td class="min">20</td>
+                        <td class="max">30</td>
+                        <td class="city">Rio de Janeiro</td>
+                    </tr>
+                    <tr>
+                        <td class="min">20</td>
+                        <td class="max">30</td>
+                        <td class="city">Rio de Janeiro</td>
+                    </tr>
+                    <tr>
+                        <td class="min">20</td>
+                        <td class="max">30</td>
+                        <td class="city">Rio de Janeiro</td>
+                    </tr>
+                </tbody>
+            </table>
         </article>
         
     </main>
