@@ -5,6 +5,7 @@ Você pode consultar uma das capitais disponíveis digitando seu nome e sua UF n
 ![imgur](https://i.imgur.com/GynC3WT.png)
 
 Ao pesquisar pelo nome da cidade, será aberto uma tela com mais informações sobre o clima.
+
 ![Imgur](https://i.imgur.com/dT7zOPv.png)
 
 
