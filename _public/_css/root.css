@@ -22,6 +22,7 @@ input,
 button {
     box-shadow: 0 0 10px #000;
     border: none;
+    border-radius: 7px;
     padding: 0.5rem;
     outline-style: none;
 }
@@ -45,6 +46,7 @@ table{
 }
 
 #screen{
+    flex-wrap: wrap;
     background: #dfdfdf;
     color: #595959;
     text-shadow: none;

@@ -13,6 +13,7 @@ const wind = document.querySelector("#wind");
 const humidity = document.querySelector("#humidity");
 const weekday = document.querySelectorAll(".weekday");
 const closeBtn = document.querySelector("#close-btn");
+const tab = document.querySelector("#tab");
 
 let dataPromisse = getContent();
 dataPromisse.then((value) => {
@@ -24,6 +25,7 @@ dataPromisse.then((value) => {
         city = getCity(inpt.value, data);
         //Adicionar informações na screen
         setScreenSearch(city);
+        setBg(city['results']['description']);
     })
 });
 
@@ -38,10 +40,29 @@ function setScreenSearch(city){
     styleScreen();
 }
 
+function setBg(desc){
+    switch(desc){
+        case "Tempestades": document.body.style.background = "var(--color-rain-temp)";
+        tab.style.color = "#fff";
+        break;
+        case "Tempestades isoladas": document.body.style.background = "var(--color-rain-temp)";
+        tab.style.color = "#fff";
+        break;
+        case "Tempo nublado": document.body.style.background = "var(--color-cloudy-temp)";
+        tab.style.color = "#fff";
+        break;
+        case "Parcialmente nublado": document.body.style.background = "var(--color-cloudy-temp)";
+        tab.style.color = "#fff";
+        break;
+        case "Céu aberto": document.body.style.background = "var(--color-medium-temp)";
+        tab.style.color = "#444";
+        break;
+    }
+}
+
 function styleScreen(){
     let screen = document.querySelector("#screen").style;
     screen.height = "auto"; 
-    closeBtn.innerHTML = "Teste"
 }
 
 function getCity(city, json){

@@ -4,7 +4,6 @@
         align-content: space-around;
     }
 
-
     table{ 
         width: 90vw;
     }
@@ -52,4 +51,214 @@
     #humidity{
         font-size: 0.8rem;
     }
+}
+
+@media(min-width: 481px){
+    main{
+        justify-content: center;
+    }
+
+    table{ 
+        width: 70vw;
+    }
+
+    #search{
+        justify-content: center;
+    }
+
+    #search #title{
+        width: 90vw;
+        text-align: center;
+    }
+
+    #search #enter-city{
+        width: 80vw;
+        margin-bottom: 1rem;
+    }
+
+    #search #send{
+        width: 65vw;
+        margin-bottom: 1rem;
+    }
+
+    #body-table{
+        padding: 0;
+        margin: 0;
+    }
+
+    #temp-screen{
+        justify-content: center;
+    }
+
+    #city-name{
+        margin: 0 0 0 0.7rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #temperature{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    #description{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    #minimum,
+    #maximum,
+    #wind,
+    #humidity{
+        font-size: 1rem;
+    }
+
+}
+
+@media(min-width: 760px){
+    main{
+        justify-content: center;
+    }
+
+    table{ 
+        width: 70vw;
+        font-size: 1.3rem;
+    }
+
+    #search{
+        justify-content: center;
+    }
+
+    #search #title{
+        width: 90vw;
+        text-align: center;
+        font-size: 3rem
+    }
+
+    #search #enter-city{
+        width: 70vw;
+        padding: 0;
+        height: 3rem;
+        font-size: 1.5rem;
+    }
+
+    #search #send{
+        width: 30vw;
+        font-size: 1.2rem;
+    }
+
+    #body-table{
+        padding: 0;
+        margin: 0;
+    }
+
+    #screen{
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #temp-screen{
+        justify-content: center;
+    }
+
+    #city-name{
+        margin: 0 0 0 0.7rem;
+        width: 90vw;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    #temperature{
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+
+    #description{
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+    
+    #minimum,
+    #maximum,
+    #wind,
+    #humidity{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media(min-width: 930px){
+    main{
+        justify-content: center;
+    }
+
+    table{ 
+        width: 50vw;
+        font-size: 1.3rem;
+    }
+
+    #search{
+        justify-content: center;
+    }
+
+    #search #title{
+        width: 90vw;
+        text-align: center;
+        font-size: 3rem
+    }
+
+    #search #enter-city{
+        width: 70vw;
+        padding: 0;
+        height: 3rem;
+        font-size: 1.5rem;
+    }
+
+    #search #send{
+        width: 30vw;
+        font-size: 1.2rem;
+    }
+
+    #body-table{
+        padding: 0;
+        margin: 0;
+    }
+
+    #screen{
+        width: 70vw;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #temp-screen{
+        justify-content: center;
+    }
+
+    #city-name{
+        margin: 0 0 0 0.7rem;
+        width: 90vw;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    #temperature{
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+
+    #description{
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+    
+    #minimum,
+    #maximum,
+    #wind,
+    #humidity{
+        font-size: 1.2rem;
+    }
+
 }
