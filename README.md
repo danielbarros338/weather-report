@@ -2,20 +2,16 @@
 ## Consulta rápida para algumas das capitais do país
 
 Você pode consultar uma das capitais disponíveis digitando seu nome e sua UF na barra de pesquisas.
-![imgur](https://i.imgur.com/GynC3WT.png)
+![Imgur](https://i.imgur.com/PXM3jvW.png)
 
-Ao pesquisar pelo nome da cidade, será aberto uma tela com mais informações sobre o clima.
+Ao pesquisar pelo nome da cidade, será aberto uma tela com mais informações sobre o clima e o fundo irá 
+mudar de cor, de acordo com o tipo de clima.
 
-![Imgur](https://i.imgur.com/dT7zOPv.png)
-
-
-De acordo com o clima, a cor de fundo muda conforme o tipo de clima atual(*em desenvolvimento*)
-![Imgur](https://i.imgur.com/ud2puMF.png)
+![Imgur](https://i.imgur.com/K7daTly.png)
 
 
 Responsivo. Adapta-se a mobile, tablets e desktops.
-![Imgur](https://i.imgur.com/5ZpgEyX.png)
-
+![Imgur](https://i.imgur.com/jhOyYwz.png)
 
 
 >Essa aplicação utiliza o Node.JS com as dependências:
