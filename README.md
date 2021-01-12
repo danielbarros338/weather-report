@@ -7,8 +7,10 @@ Você pode consultar uma das capitais disponíveis digitando seu nome e sua UF n
 Ao pesquisar pelo nome da cidade, será aberto uma tela com mais informações sobre o clima.
 ![Imgur](https://i.imgur.com/dT7zOPv.png)
 
+
 De acordo com o clima, a cor de fundo muda conforme o tipo de clima atual(*em desenvolvimento*)
 ![Imgur](https://i.imgur.com/ud2puMF.png)
+
 
 Responsivo. Adapta-se a mobile, tablets e desktops.
 ![Imgur](https://i.imgur.com/5ZpgEyX.png)
