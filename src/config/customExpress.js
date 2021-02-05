@@ -3,11 +3,11 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const consign = require('consign');
-const rootPath = '/home/daniel/Documentos/Projetos/JavaScript/previsaoDoTempo/';
+const path = require('path');
 
 consign().include('src/app/controllers').into(app);
 
-app.use(express.static(rootPath + '/_public'))
+app.use(express.static(__dirname + '../../../_public'));
 app.use(cors());
 
 module.exports = app; //Exporto o express;
